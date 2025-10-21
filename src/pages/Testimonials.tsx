@@ -6,6 +6,14 @@ import { Link } from "react-router-dom";
 const Testimonials = () => {
   const testimonials = [
     {
+      name: "CWN",
+      location: "Lagos, Nigeria",
+      service: "Spa Treatment",
+      rating: 5,
+      text: "very nice place, Joy is so kind and good at what she does, highly recommended",
+      date: "April 2025",
+    },
+    {
       name: "Chioma Adebayo",
       location: "Lagos, Nigeria",
       service: "Signature Facial Treatment",
