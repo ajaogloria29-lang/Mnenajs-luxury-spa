@@ -4,7 +4,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Sparkles, Heart, Star, Award } from "lucide-react";
 import heroImage from "@/assets/hero-spa.jpg";
 import facialImage from "@/assets/facial-treatment.jpg";
-import massageImage from "@/assets/massage-therapy.jpg";
+import massageImage from "@/assets/body-massage.jpg";
 import wellnessImage from "@/assets/wellness-setup.jpg";
 
 const Home = () => {
