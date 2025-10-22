@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Instagram, Facebook, Twitter } from "lucide-react";
+import { MapPin, Phone, Mail, Instagram, Facebook, Map } from "lucide-react";
 import { Link } from "react-router-dom";
 import logo from "@/assets/logo.jpg";
 
@@ -92,11 +92,13 @@ const Footer = () => {
                 <Facebook className="h-5 w-5" />
               </a>
               <a
-                href="#"
+                href="https://maps.app.goo.gl/f1edJZg3KyKpTkD89"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="p-2 bg-accent/10 rounded-full hover:bg-accent/20 transition-colors"
-                aria-label="Twitter"
+                aria-label="Google Maps"
               >
-                <Twitter className="h-5 w-5" />
+                <Map className="h-5 w-5" />
               </a>
             </div>
           </div>
