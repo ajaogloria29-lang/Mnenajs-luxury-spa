@@ -121,9 +121,9 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Visit Us</h3>
                       <p className="text-muted-foreground">
-                        123 Luxury Avenue<br />
-                        Victoria Island, Lagos<br />
-                        Nigeria
+                        Hotel Helen<br />
+                        36 Omorinre Johnson<br />
+                        Lekki Phase 1, Lagos
                       </p>
                     </div>
                   </div>
@@ -139,7 +139,9 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Call Us</h3>
                       <p className="text-muted-foreground">
-                        +234 XXX XXX XXXX<br />
+                        <a href="tel:+2347061084059" className="hover:text-accent transition-colors">
+                          +234 706 108 4059
+                        </a><br />
                         Monday - Saturday: 9am - 8pm<br />
                         Sunday: 10am - 6pm
                       </p>
@@ -157,8 +159,9 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Email Us</h3>
                       <p className="text-muted-foreground">
-                        info@mnenajasspa.com<br />
-                        bookings@mnenajasspa.com
+                        <a href="mailto:mnenataakper@gmail.com" className="hover:text-accent transition-colors">
+                          mnenataakper@gmail.com
+                        </a>
                       </p>
                     </div>
                   </div>
