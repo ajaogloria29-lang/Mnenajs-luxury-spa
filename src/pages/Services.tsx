@@ -6,52 +6,84 @@ import { Sparkles, Heart, Star, Crown, Droplets, Wind } from "lucide-react";
 const Services = () => {
   const services = [
     {
-      icon: Sparkles,
-      name: "Signature Facial Treatment",
-      description: "Our premium facial treatment combines deep cleansing, exfoliation, and hydration using luxury skincare products. Perfect for all skin types, this treatment leaves your skin glowing and rejuvenated.",
-      duration: "60 minutes",
-      price: "₦25,000",
-      benefits: ["Deep Cleansing", "Anti-Aging", "Skin Brightening", "Hydration"],
-    },
-    {
       icon: Heart,
       name: "Swedish Massage",
-      description: "Relax and unwind with our classic Swedish massage. Using long, flowing strokes, our professional therapists will melt away tension and promote deep relaxation throughout your body.",
-      duration: "90 minutes",
-      price: "₦35,000",
-      benefits: ["Stress Relief", "Muscle Relaxation", "Improved Circulation", "Pain Relief"],
-    },
-    {
-      icon: Star,
-      name: "Hot Stone Therapy",
-      description: "Experience the healing power of heated stones combined with therapeutic massage. This luxurious treatment promotes deep muscle relaxation and releases stored tension.",
-      duration: "90 minutes",
-      price: "₦40,000",
-      benefits: ["Deep Muscle Relief", "Stress Reduction", "Better Sleep", "Energy Boost"],
-    },
-    {
-      icon: Crown,
-      name: "Royal Gold Facial",
-      description: "Indulge in our most luxurious facial featuring 24K gold-infused products. This anti-aging treatment firms, lifts, and illuminates your skin for a radiant, youthful glow.",
-      duration: "90 minutes",
-      price: "₦50,000",
-      benefits: ["Anti-Aging", "Skin Firming", "Luxury Experience", "Radiant Glow"],
+      description: "Relax and unwind with our classic Swedish massage technique for ultimate relaxation.",
     },
     {
       icon: Droplets,
       name: "Deep Tissue Massage",
-      description: "Target chronic pain and muscle tension with our therapeutic deep tissue massage. Our skilled therapists use firm pressure to release knots and restore mobility.",
-      duration: "75 minutes",
-      price: "₦38,000",
-      benefits: ["Pain Management", "Injury Recovery", "Increased Flexibility", "Posture Improvement"],
+      description: "Target chronic pain and muscle tension with therapeutic deep tissue massage.",
     },
     {
       icon: Wind,
-      name: "Aromatherapy Session",
-      description: "Harmonize your body and mind with our aromatherapy massage using premium essential oils. Choose from calming, energizing, or balancing blends tailored to your needs.",
-      duration: "60 minutes",
-      price: "₦32,000",
-      benefits: ["Mood Enhancement", "Relaxation", "Improved Sleep", "Mental Clarity"],
+      name: "Aroma Therapy Massage",
+      description: "Harmonize your body and mind with our aromatherapy massage using premium essential oils.",
+    },
+    {
+      icon: Star,
+      name: "Hot Stone Massage",
+      description: "Experience the healing power of heated stones combined with therapeutic massage.",
+    },
+    {
+      icon: Heart,
+      name: "Couple Massage",
+      description: "Share a relaxing experience with your partner in our couple massage suite.",
+    },
+    {
+      icon: Sparkles,
+      name: "Erotic Massage",
+      description: "Intimate and sensual massage experience for adults.",
+    },
+    {
+      icon: Heart,
+      name: "N*ru Massage",
+      description: "Traditional Japanese body-to-body massage technique.",
+    },
+    {
+      icon: Wind,
+      name: "Thai Massage",
+      description: "Ancient Thai massage combining stretching and pressure points.",
+    },
+    {
+      icon: Sparkles,
+      name: "Lingam Massage",
+      description: "Specialized therapeutic massage focusing on energy and relaxation.",
+    },
+    {
+      icon: Heart,
+      name: "4 Hands N*ru Massage",
+      description: "Luxurious four-handed massage experience.",
+    },
+    {
+      icon: Crown,
+      name: "N*ru Plus Massage",
+      description: "Enhanced N*ru massage with premium treatment.",
+    },
+    {
+      icon: Droplets,
+      name: "Back Massage",
+      description: "Focused massage targeting back muscles and tension relief.",
+    },
+    {
+      icon: Heart,
+      name: "Shoulder Massage",
+      description: "Relieve shoulder tension and stress with targeted massage.",
+    },
+    {
+      icon: Sparkles,
+      name: "Pedicure and Manicure",
+      description: "Complete nail care for hands and feet with luxury treatment.",
+    },
+    {
+      icon: Star,
+      name: "Deep Cleaning Facial",
+      description: "Thorough facial treatment for deep cleansing and rejuvenation.",
+    },
+    {
+      icon: Sparkles,
+      name: "Mini Facial",
+      description: "Quick and refreshing facial treatment for all skin types.",
     },
   ];
 
@@ -102,32 +134,7 @@ const Services = () => {
                     <service.icon className="h-8 w-8 text-accent" />
                   </div>
                   <h3 className="text-2xl font-semibold mb-2">{service.name}</h3>
-                  <p className="text-muted-foreground mb-4">{service.description}</p>
-                  
-                  <div className="space-y-2 mb-4">
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm text-muted-foreground">Duration:</span>
-                      <span className="font-medium">{service.duration}</span>
-                    </div>
-                    <div className="flex justify-between items-center">
-                      <span className="text-sm text-muted-foreground">Price:</span>
-                      <span className="font-bold text-accent text-lg">{service.price}</span>
-                    </div>
-                  </div>
-
-                  <div className="border-t pt-4">
-                    <p className="text-sm font-semibold mb-2">Benefits:</p>
-                    <div className="flex flex-wrap gap-2">
-                      {service.benefits.map((benefit, i) => (
-                        <span
-                          key={i}
-                          className="text-xs bg-secondary px-2 py-1 rounded-full"
-                        >
-                          {benefit}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
+                  <p className="text-muted-foreground">{service.description}</p>
                 </CardContent>
               </Card>
             ))}
