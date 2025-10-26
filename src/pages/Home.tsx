@@ -6,6 +6,12 @@ import heroImage from "@/assets/hero-spa.jpg";
 import facialImage from "@/assets/facial-treatment.jpg";
 import massageImage from "@/assets/body-massage.jpg";
 import wellnessImage from "@/assets/wellness-setup.jpg";
+import swedishMassageImage from "@/assets/swedish-massage.jpg";
+import deepTissueImage from "@/assets/deep-tissue-massage.jpg";
+import aromaTherapyImage from "@/assets/aroma-therapy-massage.jpg";
+import eroticMassageImage from "@/assets/erotic-massage.jpg";
+import coupleMassageImage from "@/assets/couple-massage.jpg";
+import lingamMassageImage from "@/assets/lingam-massage.jpg";
 
 const Home = () => {
   const services = [
@@ -26,6 +32,42 @@ const Home = () => {
       title: "Wellness Treatments",
       description: "Holistic spa treatments designed to restore balance and promote overall wellbeing.",
       image: wellnessImage,
+    },
+    {
+      icon: Heart,
+      title: "Swedish Massage",
+      description: "Classic massage technique using long, flowing strokes to promote relaxation and improve circulation.",
+      image: swedishMassageImage,
+    },
+    {
+      icon: Heart,
+      title: "Deep Tissue Massage",
+      description: "Intensive massage targeting deep muscle layers to release chronic tension and knots.",
+      image: deepTissueImage,
+    },
+    {
+      icon: Sparkles,
+      title: "Aroma Therapy Massage",
+      description: "Therapeutic massage combined with essential oils to enhance relaxation and healing.",
+      image: aromaTherapyImage,
+    },
+    {
+      icon: Heart,
+      title: "Erotic Massage",
+      description: "Sensual and intimate massage experience in a luxurious, private setting.",
+      image: eroticMassageImage,
+    },
+    {
+      icon: Heart,
+      title: "Couple Massage",
+      description: "Share a relaxing massage experience with your partner in our couples suite.",
+      image: coupleMassageImage,
+    },
+    {
+      icon: Star,
+      title: "Lingam Massage",
+      description: "Tantric massage technique focused on energy flow and deep relaxation.",
+      image: lingamMassageImage,
     },
   ];
 
