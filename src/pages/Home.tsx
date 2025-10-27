@@ -12,6 +12,12 @@ import aromaTherapyImage from "@/assets/aroma-therapy-massage.jpg";
 import eroticMassageImage from "@/assets/erotic-massage.jpg";
 import coupleMassageImage from "@/assets/couple-massage.jpg";
 import lingamMassageImage from "@/assets/lingam-massage.jpg";
+import nuruMassageImage from "@/assets/nuru-massage.jpg";
+import fourHandsMassageImage from "@/assets/four-hands-massage.jpg";
+import backMassageImage from "@/assets/back-massage.jpg";
+import shoulderMassageImage from "@/assets/shoulder-massage.jpg";
+import pedicureManicureImage from "@/assets/pedicure-manicure.jpg";
+import deepCleaningFacialImage from "@/assets/deep-cleaning-facial.jpg";
 
 const Home = () => {
   const services = [
@@ -68,6 +74,42 @@ const Home = () => {
       title: "Lingam Massage",
       description: "Tantric massage technique focused on energy flow and deep relaxation.",
       image: lingamMassageImage,
+    },
+    {
+      icon: Heart,
+      title: "Nuru Massage",
+      description: "Traditional Japanese body-to-body massage using special gel for ultimate relaxation.",
+      image: nuruMassageImage,
+    },
+    {
+      icon: Heart,
+      title: "4 Hands Nuru Massage",
+      description: "Experience double the relaxation with two therapists working in harmony.",
+      image: fourHandsMassageImage,
+    },
+    {
+      icon: Heart,
+      title: "Back Massage",
+      description: "Targeted massage therapy focusing on back muscles to relieve tension and stress.",
+      image: backMassageImage,
+    },
+    {
+      icon: Heart,
+      title: "Shoulder Massage",
+      description: "Specialized massage targeting shoulder and neck area to release tension and improve mobility.",
+      image: shoulderMassageImage,
+    },
+    {
+      icon: Sparkles,
+      title: "Pedicure and Manicure",
+      description: "Complete nail care service including grooming, polishing, and pampering for hands and feet.",
+      image: pedicureManicureImage,
+    },
+    {
+      icon: Sparkles,
+      title: "Deep Cleaning Facial",
+      description: "Intensive facial treatment to deeply cleanse pores and rejuvenate your skin.",
+      image: deepCleaningFacialImage,
     },
   ];
 
