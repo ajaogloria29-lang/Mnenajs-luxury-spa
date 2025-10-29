@@ -1,4 +1,4 @@
-import { MapPin, Phone, Mail, Instagram } from "lucide-react";
+import { MapPin, Phone, Mail } from "lucide-react";
 import { Link } from "react-router-dom";
 import logo from "@/assets/logo.jpg";
 
@@ -77,13 +77,6 @@ const Footer = () => {
           <div>
             <h4 className="font-semibold mb-4">Follow Us</h4>
             <div className="flex gap-4">
-              <a
-                href="#"
-                className="p-2 bg-accent/10 rounded-full hover:bg-accent/20 transition-colors"
-                aria-label="Instagram"
-              >
-                <Instagram className="h-5 w-5" />
-              </a>
               <a
                 href="https://www.pinterest.com/mnenataakper/"
                 target="_blank"
