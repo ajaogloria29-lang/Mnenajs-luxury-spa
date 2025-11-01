@@ -18,7 +18,7 @@ import backMassageImage from "@/assets/back-massage.jpg";
 import shoulderMassageImage from "@/assets/shoulder-massage.jpg";
 import pedicureManicureImage from "@/assets/pedicure-manicure.jpg";
 import deepCleaningFacialImage from "@/assets/deep-cleaning-facial.jpg";
-import massageTherapyImage from "@/assets/massage-therapy.jpg";
+
 
 const Home = () => {
   const services = [
@@ -111,18 +111,6 @@ const Home = () => {
       title: "Deep Cleaning Facial",
       description: "Intensive facial treatment to deeply cleanse pores and rejuvenate your skin.",
       image: deepCleaningFacialImage,
-    },
-    {
-      icon: Sparkles,
-      title: "Mini Facial",
-      description: "Quick and refreshing facial treatment perfect for maintaining your skin's natural glow.",
-      image: facialImage,
-    },
-    {
-      icon: Heart,
-      title: "Hot Stone Massage",
-      description: "Therapeutic massage using heated stones to melt away tension and promote deep relaxation.",
-      image: massageTherapyImage,
     },
   ];
 
