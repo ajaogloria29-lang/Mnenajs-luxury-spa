@@ -75,8 +75,7 @@ const Footer = () => {
 
           {/* Social Media */}
           <div>
-            <h4 className="font-semibold mb-4">Follow Us</h4>
-            <p className="text-sm text-muted-foreground mb-4">Find Us On</p>
+            <h4 className="font-semibold mb-4">Find Us On</h4>
             <div className="flex gap-4">
               <a
                 href="https://www.pinterest.com/mnenataakper/"
