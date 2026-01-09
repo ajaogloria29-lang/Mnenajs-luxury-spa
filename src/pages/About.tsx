@@ -8,7 +8,7 @@ const About = () => {
       <section className="py-20 bg-secondary/30">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-5xl md:text-6xl font-bold mb-6">About Mnenaja's Luxury Spa</h1>
+            <h1 className="text-5xl md:text-6xl font-bold mb-6">About MJT Luxury Spa</h1>
             <p className="text-xl text-muted-foreground">
               Where Excellence Meets Relaxation in the Heart of Lagos
             </p>
@@ -23,7 +23,7 @@ const About = () => {
             <h2 className="text-4xl font-bold mb-8 text-center">Our Story</h2>
             <div className="prose prose-lg max-w-none text-foreground space-y-6">
               <p className="text-lg leading-relaxed">
-                Founded with a passion for wellness and beauty, Mnenaja's Luxury Spa began as a vision to bring 
+                Founded with a passion for wellness and beauty, MJT Luxury Spa began as a vision to bring 
                 world-class spa experiences to Lagos, Nigeria. Our founder, inspired by international spa cultures 
                 and a deep commitment to holistic wellness, created a sanctuary where clients could escape the 
                 stresses of daily life and immerse themselves in pure luxury.
@@ -34,7 +34,7 @@ const About = () => {
                 premium products, and a genuine dedication to each client's wellbeing.
               </p>
               <p className="text-lg leading-relaxed">
-                Every treatment at Mnenaja's is crafted with precision and care, using only the finest products 
+                Every treatment at MJT is crafted with precision and care, using only the finest products 
                 sourced from around the world. Our team of professional therapists undergoes rigorous training 
                 to ensure that every visit exceeds expectations, leaving you refreshed, rejuvenated, and glowing 
                 from within.
@@ -121,7 +121,7 @@ const About = () => {
                 <p className="text-lg text-muted-foreground leading-relaxed">
                   To be recognized as Nigeria's premier luxury spa destination, setting the standard for 
                   excellence in wellness and beauty treatments. We aspire to expand our reach while maintaining 
-                  the intimate, personalized service that makes Mnenaja's truly special.
+                  the intimate, personalized service that makes MJT truly special.
                 </p>
               </CardContent>
             </Card>

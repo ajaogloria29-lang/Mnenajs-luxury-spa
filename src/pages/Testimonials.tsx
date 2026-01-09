@@ -18,7 +18,7 @@ const Testimonials = () => {
       location: "Lagos, Nigeria",
       service: "Signature Facial Treatment",
       rating: 5,
-      text: "Absolutely incredible experience! From the moment I walked in, I felt welcomed and pampered. The facial treatment was divine - my skin has never looked or felt better. The therapist was so knowledgeable and professional. I've tried many spas in Lagos, but Mnenaja's is truly in a league of its own.",
+      text: "Absolutely incredible experience! From the moment I walked in, I felt welcomed and pampered. The facial treatment was divine - my skin has never looked or felt better. The therapist was so knowledgeable and professional. I've tried many spas in Lagos, but MJT is truly in a league of its own.",
       date: "March 2025",
     },
     {
@@ -26,7 +26,7 @@ const Testimonials = () => {
       location: "Victoria Island, Lagos",
       service: "Swedish Massage",
       rating: 5,
-      text: "I visit Mnenaja's every month for my regular massage therapy, and each time I leave feeling completely renewed. The therapists here really understand body mechanics and know exactly where to focus. The ambiance is so peaceful and luxurious. This is my sanctuary in the busy city of Lagos!",
+      text: "I visit MJT every month for my regular massage therapy, and each time I leave feeling completely renewed. The therapists here really understand body mechanics and know exactly where to focus. The ambiance is so peaceful and luxurious. This is my sanctuary in the busy city of Lagos!",
       date: "February 2025",
     },
     {
@@ -42,7 +42,7 @@ const Testimonials = () => {
       location: "Ikoyi, Lagos",
       service: "Deep Tissue Massage",
       rating: 5,
-      text: "As someone who works long hours at a desk, I developed chronic shoulder and neck pain. The deep tissue massage at Mnenaja's has been life-changing. The therapist was highly skilled and professional. The facility is pristine and the service is top-notch. Highly recommend for anyone dealing with muscle tension.",
+      text: "As someone who works long hours at a desk, I developed chronic shoulder and neck pain. The deep tissue massage at MJT has been life-changing. The therapist was highly skilled and professional. The facility is pristine and the service is top-notch. Highly recommend for anyone dealing with muscle tension.",
       date: "January 2025",
     },
     {
@@ -50,7 +50,7 @@ const Testimonials = () => {
       location: "Ajah, Lagos",
       service: "Royal Gold Facial",
       rating: 5,
-      text: "Treated myself to the Royal Gold Facial for my birthday, and wow! It was the most luxurious spa experience I've ever had. My skin was glowing for weeks afterward. The attention to detail and the quality of products used is exceptional. Mnenaja's sets the standard for luxury spa treatments in Nigeria.",
+      text: "Treated myself to the Royal Gold Facial for my birthday, and wow! It was the most luxurious spa experience I've ever had. My skin was glowing for weeks afterward. The attention to detail and the quality of products used is exceptional. MJT sets the standard for luxury spa treatments in Nigeria.",
       date: "February 2025",
     },
     {
@@ -79,7 +79,7 @@ const Testimonials = () => {
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Client Testimonials</h1>
             <p className="text-xl text-muted-foreground">
               Read what our valued clients have to say about their experiences at 
-              Mnenaja's Luxury Spa - the best spa in Lagos, Nigeria.
+              MJT Luxury Spa - the best spa in Lagos, Nigeria.
             </p>
           </div>
         </div>

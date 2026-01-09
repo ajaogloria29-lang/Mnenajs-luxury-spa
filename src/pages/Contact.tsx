@@ -51,7 +51,7 @@ const Contact = () => {
       // Here you would normally send to backend
       toast({
         title: "Booking Request Received!",
-        description: "Thank you for choosing Mnenaja's Luxury Spa. We'll contact you shortly to confirm your appointment.",
+        description: "Thank you for choosing MJT Luxury Spa. We'll contact you shortly to confirm your appointment.",
       });
 
       // Reset form
@@ -92,7 +92,7 @@ const Contact = () => {
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Contact Us</h1>
             <p className="text-xl text-muted-foreground">
               Ready to experience pure luxury? Book your appointment or get in touch with 
-              our team at Mnenaja's Luxury Spa in Lagos, Nigeria.
+              our team at MJT Luxury Spa in Lagos, Nigeria.
             </p>
           </div>
         </div>

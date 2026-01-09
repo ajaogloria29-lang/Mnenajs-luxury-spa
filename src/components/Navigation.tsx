@@ -24,9 +24,9 @@ const Navigation = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
           <Link to="/" className="flex items-center space-x-3">
-            <img src={logo} alt="Mnenaja's Luxury Spa Logo" className="h-16 w-16 object-contain" />
+            <img src={logo} alt="MJT Luxury Spa Logo" className="h-16 w-16 object-contain" />
             <h1 className="text-xl font-bold text-foreground">
-              Mnenaja's <span className="text-accent">Luxury Spa</span>
+              MJT <span className="text-accent">Luxury Spa</span>
             </h1>
           </Link>
 
