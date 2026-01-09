@@ -33,7 +33,7 @@ const Gallery = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-5xl md:text-6xl font-bold mb-6">Our Gallery</h1>
             <p className="text-xl text-muted-foreground">
-              Take a virtual tour of Mnenaja's Luxury Spa. Experience the elegance, 
+              Take a virtual tour of MJT Luxury Spa. Experience the elegance, 
               tranquility, and attention to detail that makes us Lagos' premier spa destination.
             </p>
           </div>
@@ -76,7 +76,7 @@ const Gallery = () => {
             Experience It For Yourself
           </h2>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
-            Pictures can only capture so much. Visit Mnenaja's Luxury Spa and discover 
+            Pictures can only capture so much. Visit MJT Luxury Spa and discover 
             the true meaning of relaxation and rejuvenation in Lagos, Nigeria.
           </p>
           <Button variant="gold" size="lg" asChild>

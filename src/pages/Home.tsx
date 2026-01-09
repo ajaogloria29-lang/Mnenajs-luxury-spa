@@ -122,7 +122,7 @@ const Home = () => {
     },
     {
       name: "Fatima Mohammed",
-      text: "I visit Mnenaja's every month for my facial treatment. My skin has never looked better. Highly recommend!",
+      text: "I visit MJT every month for my facial treatment. My skin has never looked better. Highly recommend!",
       rating: 5,
     },
     {
@@ -148,7 +148,7 @@ const Home = () => {
             Glow from Within
           </h1>
           <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90 max-w-2xl mx-auto">
-            Rejuvenate Your Body and Mind at Mnenaja's Luxury Spa
+            Rejuvenate Your Body and Mind at MJT Luxury Spa
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/contact">
@@ -205,7 +205,7 @@ const Home = () => {
       <section className="py-20 bg-secondary/50">
         <div className="container mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Why Choose Mnenaja's?</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Why Choose MJT?</h2>
             <p className="text-muted-foreground text-lg">
               The best spa in Lagos, trusted by hundreds of satisfied clients
             </p>

@@ -10,9 +10,9 @@ const Footer = () => {
           {/* About */}
           <div>
             <div className="flex items-center space-x-3 mb-4">
-              <img src={logo} alt="Mnenaja's Luxury Spa Logo" className="h-16 w-16 object-contain" />
+              <img src={logo} alt="MJT Luxury Spa Logo" className="h-16 w-16 object-contain" />
               <h3 className="text-lg font-bold">
-                Mnenaja's <span className="text-accent">Luxury Spa</span>
+                MJT <span className="text-accent">Luxury Spa</span>
               </h3>
             </div>
             <p className="text-sm text-muted-foreground">
@@ -107,7 +107,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} Mnenaja's Luxury Spa. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} MJT Luxury Spa. All rights reserved.</p>
         </div>
       </div>
     </footer>
